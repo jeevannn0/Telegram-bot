@@ -1,76 +1,68 @@
-# Hamster Kombat Clone
+TapMe Bot
 
-This repository contains the initial setup and the final version of the Hamster Kombat clone project, including the basic project structure, necessary images, and icons.
 
-## Overview
+Bot - https://t.me/TapMe_Test9_bot/bottapme1
 
-This project is a clone of the popular Telegram mini app, Hamster Kombat. The repository provides two branches:
 
-1. **Initial Setup**: Provides the foundational structure and assets needed to build the full application.
-2. **Final Version**: The completed application with all functionalities.
+Demo Video - https://drive.google.com/file/d/1egyFpivOMhEAZMSUe39strOxKhu7O6oh/view?usp=sharing
 
-## Getting Started
 
-To get started with either the initial setup or the final version, follow these instructions:
 
-### Cloning the Repository
+TapMe Bot is a Telegram bot built with Vite and TypeScript that interacts with users and provides various functionalities. This README will guide you on how to set up and run the project locally.
 
-1. **Clone the Repository**:
+Prerequisites
+Before you begin, ensure you have the following installed:
 
-    ```bash
-    git clone https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone.git
-    cd Hamster-Kombat-Telegram-Mini-App-Clone
-    ```
+Node.js (version 14 or later)
+npm (Node Package Manager)
+Getting Started
+Clone the Repository
 
-### Initial Setup
+Begin by cloning the repository to your local machine:
 
-2. **Switch to the `initial-setup` Branch**:
+  
+   
+git clone https://github.com/yourusername/tapme-bot.git
+cd tapme-bot
+Install Dependencies
 
-    ```bash
-    git checkout initial-setup
-    ```
+Navigate to the project directory and install the necessary dependencies:
 
-3. **Install Dependencies**:
+  
+   
+npm install
+Configure the Bot
 
-    ```bash
-    npm install
-    ```
+Create a .env file in the root of your project and add your Telegram bot token:
 
-4. **Run the Development Server**:
+plaintext
+   
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+Run the Development Server
 
-    ```bash
-    npm run dev
-    ```
+Start the Vite development server:
 
-5. **Open Your Browser**:
+  
+   
+npm run dev
+This will start the local server at http://localhost:3000 (or a different port if configured).
 
-    Navigate to localhost to see the initial setup.
+Start the Bot Locally
 
-### Final Version
+In a new terminal window, run the following command to start the TapMe Bot:
 
-2. **Switch to the `final-version` Branch**:
+  
+   
+npm run start:bot
+This will initiate the bot and begin listening for messages on Telegram.
 
-    ```bash
-    git checkout final-version
-    ```
+Setting Up Webhook (Optional)
+If you want to set up a webhook instead of using polling, run the following command in your terminal (replace your_telegram_bot_token and your_vercel_url):
 
-3. **Install Dependencies**:
+  
+   
+curl -F "url=https://your-vercel-url/api/bot" https://api.telegram.org/bot<your_telegram_bot_token>/setWebhook
+This will configure Telegram to send updates to your bot through the specified URL.
 
-    ```bash
-    npm install
-    ```
-
-4. **Run the Development Server**:
-
-    ```bash
-    npm run dev
-    ```
-
-5. **Open Your Browser**:
-
-    Navigate to localhost to see the final version of the application.
-
-## Contact
-
-For any inquiries, please contact me in Telegram: [Nikandr Surkov](https://t.me/nikandr_s).
-
+Usage
+Once the bot is running, you can interact with it on Telegram by sending messages. Use commands like /start to initiate a conversation.
