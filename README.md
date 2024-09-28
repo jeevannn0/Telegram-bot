@@ -7,6 +7,9 @@ Bot - https://t.me/TapMe_Test9_bot/bottapme1
 Demo Video - https://drive.google.com/file/d/1egyFpivOMhEAZMSUe39strOxKhu7O6oh/view?usp=sharing
 
 
+Vercel - https://telegram-bot-phi-jade.vercel.app/
+
+
 
 TapMe Bot is a Telegram bot built with Vite and TypeScript that interacts with users and provides various functionalities. This README will guide you on how to set up and run the project locally.
 
