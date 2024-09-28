@@ -25,7 +25,7 @@ Begin by cloning the repository to your local machine:
 
   
    
-git clone https://github.com/yourusername/tapme-bot.git
+git clone https://github.com/jeevannn0/Telegram-bot.git
 cd tapme-bot
 Install Dependencies
 
