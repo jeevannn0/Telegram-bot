@@ -1,30 +1,25 @@
-TapMe Bot
+# TapMe Bot
+
+[TapMe Bot on Telegram](https://t.me/TapMe_Test9_bot/bottapme1)  
+[Demo Video](https://drive.google.com/file/d/1egyFpivOMhEAZMSUe39strOxKhu7O6oh/view?usp=sharing)  
+[Vercel Deployment](https://telegram-bot-phi-jade.vercel.app/)
+
+TapMe Bot is a Telegram bot developed using Vite and TypeScript. It interacts with users and offers various functionalities. This README provides you with all the information necessary to set up and run the project locally.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- **Node.js** (version 14 or later)
+- **npm** (Node Package Manager)
+
+## Getting Started
+
+### Clone the Repository
+
+First, clone the repository to your local machine:
 
 
-Bot - https://t.me/TapMe_Test9_bot/bottapme1
-
-
-Demo Video - https://drive.google.com/file/d/1egyFpivOMhEAZMSUe39strOxKhu7O6oh/view?usp=sharing
-
-
-Vercel - https://telegram-bot-phi-jade.vercel.app/
-
-
-
-TapMe Bot is a Telegram bot built with Vite and TypeScript that interacts with users and provides various functionalities. This README will guide you on how to set up and run the project locally.
-
-Prerequisites
-Before you begin, ensure you have the following installed:
-
-Node.js (version 14 or later)
-npm (Node Package Manager)
-Getting Started
-Clone the Repository
-
-Begin by cloning the repository to your local machine:
-
-  
-   
 git clone https://github.com/jeevannn0/Telegram-bot.git
 cd tapme-bot
 Install Dependencies
@@ -69,3 +64,5 @@ This will configure Telegram to send updates to your bot through the specified U
 
 Usage
 Once the bot is running, you can interact with it on Telegram by sending messages. Use commands like /start to initiate a conversation.
+
+```bash
